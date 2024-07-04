@@ -1,0 +1,30 @@
+Package: MrSun
+Type: Package
+Title: US Climate Reference Network (USCRN) Analysis An Visualization For R
+Version: 0.1.0
+Author: Ethan Carlson, Xieqing Yu
+Maintainer: Ethan Carlson <eac263@cornell.edu>
+Description: Functions to access, analyze, and visualize the US Climate 
+    Reference Network (USCRN) which is a set of high quality weather stations 
+    maintained by the National Centers for Environmental Information (NCEI) 
+    within the National Oceanic and Atmospheric Administration (NOAA). Raw data
+    can be retrieved here:
+    \url{https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/}.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    dplyr,
+    lubridate,
+    GpGp
+NeedsCompilation: no
+Packaged: 2024-05-06 19:32:18 UTC; ethancarlson
+Depends: R (>= 3.5.0)
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+RoxygenNote: 7.3.1
